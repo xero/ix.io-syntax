@@ -1,8 +1,28 @@
-#ix.io-syntax
+#ix.io syntax highlighter
 
-http://ix.io - monokai syntax highlighter chrome extension
+http://ix.io & http://sprunge.us - syntax highlighter chrome extension
+
+- http://ix.io/fHi
+- http://ix.io/fHf
+- http://ix.io/fHh
 
 ![](https://raw.github.com/xero/ix.io-syntax/master/preview.png)
+
+##hacking
+
+- install dependencies
+  - `npm install`
+- edit files
+  - change style
+    - `vim ui/sass/highlight.scss`
+    - comment out `@import "monokai_sublime";`
+    - uncomment `//@import "tomorrow-night-eighties";`
+    - save
+  - add short link code site
+    - `vim manifest.json`
+    - add entry in the matches section in the form of: `"*://codesite.link/*" ,`
+- build
+  - `grunt`
 
 ##install
 
@@ -135,11 +155,3 @@ this extension is not released on the store, so you must install it manually.
 - Vim Script
 - XL
 - XML
-
-##hacking
-
-- install dependencies
-  - `npm install`
-- edit files
-- build
-  - `grunt`

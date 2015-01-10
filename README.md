@@ -12,3 +12,10 @@ this extension is not released on the store, so you must install it manually.
 - choose load unpacked extension...
 - browse to the repository location
 - click ok
+
+##powered by
+
+- [highlight](https://highlightjs.org)
+- [grunt](http://gruntjs.com)
+- [sass](http://sass-lang.com)
+- [node](http://nodejs.org)

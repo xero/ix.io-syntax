@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "ix.io-syntax",
+    "description": "ix.io - monokai syntax highlighter",
+    "version": "1.0.0",
+    "permissions": [
+        "tabs",
+        "<all_urls>",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [ 
+        { 
+            "all_frames": false, 
+            "js": [ "mod.js" ],
+            "matches": [ "*://ix.io/*" ],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        "mod.js",
+        "libs.min.js",
+        "ixio.min.css"
+    ]
+}

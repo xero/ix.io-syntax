@@ -1,6 +1,6 @@
 #ix.io-syntax
 
-http://ix.io - monokai syntax highlighter
+http://ix.io - monokai syntax highlighter chrome extension
 
 ![](https://raw.github.com/xero/ix.io-syntax/master/preview.png)
 

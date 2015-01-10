@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 					style: 'compressed'
 				},
 				files: {
-					'ixio.min.css': 'ui/sass/base.scss'
+					'ixio.min.css': 'ui/sass/highlight.scss'
 				}
 			}
 		}

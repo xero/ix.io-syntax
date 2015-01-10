@@ -5,13 +5,15 @@ http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highl
 Based on Solarized Style from http://ethanschoonover.com/solarized
 
 */
+body {
+  background: url('ui/img/pojoaque.jpg') repeat scroll left top #181914;
+}
 
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   color: #dccf8f;
-  background: url(./pojoaque.jpg) repeat scroll left top #181914;
   -webkit-text-size-adjust: none;
 }
 

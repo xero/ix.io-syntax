@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 					'ui/js/highlight.js',
 					'ui/js/init.js'
 				],
-				dest: 'libs.min.js'
+				dest: 'ui/js/libs.min.js'
 			}
 		},
 		//___________________________________________________________________________
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 					style: 'compressed'
 				},
 				files: {
-					'ixio.min.css': 'ui/sass/highlight.scss'
+					'ui/css/ixio.min.css': 'ui/sass/highlight.scss'
 				}
 			}
 		}

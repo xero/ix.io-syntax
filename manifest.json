@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "ix.io-syntax",
     "description": "ix.io - monokai syntax highlighter",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "permissions": [
         "tabs",
         "<all_urls>",
@@ -13,7 +13,7 @@
     "content_scripts": [ 
         { 
             "all_frames": false, 
-            "js": [ "mod.js" ],
+            "js": [ "ui/js/extension.js" ],
             "matches": [ 
                 "*://ix.io/*" ,
                 "*://sprunge.us/*"
@@ -22,8 +22,11 @@
         }
     ],
     "web_accessible_resources": [
-        "mod.js",
-        "libs.min.js",
-        "ixio.min.css"
+        "ui/js/extension.js",
+        "ui/js/libs.min.js",
+        "ui/css/ixio.min.css",
+        "ui/img/brown_papersq.png",
+        "ui/img/school_book.png",
+        "ui/img/pojoaque.jpg"
     ]
 }

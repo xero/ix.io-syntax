@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "ix.io-syntax",
     "description": "ix.io - monokai syntax highlighter",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "permissions": [
         "tabs",
         "<all_urls>",
@@ -14,7 +14,10 @@
         { 
             "all_frames": false, 
             "js": [ "mod.js" ],
-            "matches": [ "*://ix.io/*" ],
+            "matches": [ 
+                "*://ix.io/*" ,
+                "*://sprunge.us/*"
+            ],
             "run_at": "document_start"
         }
     ],

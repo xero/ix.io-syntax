@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "ix.io-syntax",
-    "description": "ix.io - monokai syntax highlighter",
-    "version": "1.1.1",
+    "description": "ix.io & sprunge.us - syntax highlighter",
+    "version": "1.2.0",
     "permissions": [
         "tabs",
         "<all_urls>",

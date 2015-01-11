@@ -1,0 +1,37 @@
+#toggle {
+	position: absolute;
+	display: inline;
+	right: 0;
+	top: 0;
+	padding: 15px;	
+
+	#theme {
+		display: none;
+		clear: both;
+		margin-top: 10px;
+	}
+
+	article {
+		width: 0px;
+		height: 0px;
+		float: right;
+		opacity: 0.5;
+
+		&:hover {
+			-webkit-transition: opacity 500ms linear;
+			opacity: 1;
+		}
+	}
+
+	.up {
+	    border-left: 18px inset transparent;
+	    border-right: 18px inset transparent;
+	    border-bottom: 18px solid #48473D;
+	}
+
+	.down {
+		border-left: 18px solid transparent;
+		border-right: 18px solid transparent;
+		border-top: 18px solid #48473D;
+	}
+}

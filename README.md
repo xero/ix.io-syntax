@@ -6,13 +6,16 @@ http://ix.io & http://sprunge.us & http://clbin.com - syntax highlighter chrome 
 - http://ix.io/fHf
 - http://ix.io/fHh
 
+feel free to fork it on github!
+http://git.io/ixio-syntax
+
 ![](https://raw.github.com/xero/ix.io-syntax/master/preview.gif)
 
 ##install
 
 ### chrome webstore
 
-free to download and install via the [chrome webstore](https://chrome.google.com/webstore/detail/ixio-syntax/fjapilgdigpoemngloibjajbgaccfjin)
+free to download and install via the [chrome webstore](http://goo.gl/ZJMB9j)
 
 ### manual installation
 

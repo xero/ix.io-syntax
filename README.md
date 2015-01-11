@@ -6,21 +6,13 @@ http://ix.io & http://sprunge.us - syntax highlighter chrome extension
 - http://ix.io/fHf
 - http://ix.io/fHh
 
-![](https://raw.github.com/xero/ix.io-syntax/master/preview.png)
+![](https://raw.github.com/xero/ix.io-syntax/master/preview.gif)
 
 ##hacking
 
 - install dependencies
   - `npm install`
 - edit files
-  - change style
-    - `vim ui/sass/highlight.scss`
-    - comment out `@import "monokai_sublime";`
-    - uncomment `//@import "tomorrow-night-eighties";`
-    - save
-  - add short link code site
-    - `vim manifest.json`
-    - add entry in the matches section in the form of: `"*://codesite.link/*" ,`
 - build
   - `grunt`
 

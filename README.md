@@ -15,7 +15,7 @@ http://git.io/ixio-syntax
 
 ### chrome webstore
 
-free to download and install via the [chrome webstore](https://chrome.google.com/webstore/detail/ixio-syntax/fjapilgdigpoemngloibjajbgaccfjin)
+free to download and install via the [chrome webstore](http://goo.gl/ZJMB9j)
 
 ### manual installation
 

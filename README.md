@@ -1,12 +1,25 @@
 #ix.io syntax highlighter
 
-http://ix.io & http://sprunge.us - syntax highlighter chrome extension
+http://ix.io & http://sprunge.us & clbin.com - syntax highlighter chrome extension. select from 49 themes and save your settings for each individual site.
 
 - http://ix.io/fHi
 - http://ix.io/fHf
 - http://ix.io/fHh
 
 ![](https://raw.github.com/xero/ix.io-syntax/master/preview.gif)
+
+##install
+
+### chrome webstore
+
+free to download and install via the [chrome webstore](https://chrome.google.com/webstore/detail/ixio-syntax/fjapilgdigpoemngloibjajbgaccfjin)
+
+### manual installation
+
+- navigate to `chrome://extensions/`
+- choose load unpacked extension...
+- browse to the repository location
+- click `open` or `ok` 
 
 ##hacking
 
@@ -15,15 +28,6 @@ http://ix.io & http://sprunge.us - syntax highlighter chrome extension
 - edit files
 - build
   - `grunt`
-
-##install
-
-this extension is not released on the store, so you must install it manually.
-
-- navigate to chrome://extensions/
-- choose load unpacked extension...
-- browse to the repository location
-- click ok
 
 ##powered by
 

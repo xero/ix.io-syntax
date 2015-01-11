@@ -1,6 +1,6 @@
 #ix.io syntax highlighter
 
-http://ix.io & http://sprunge.us - syntax highlighter chrome extension
+http://ix.io & http://sprunge.us & clbin.com - syntax highlighter chrome extension
 
 - http://ix.io/fHi
 - http://ix.io/fHf

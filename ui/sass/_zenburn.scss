@@ -120,4 +120,15 @@ based on dark.css by Ivan Sagalaev
   .xml .hljs-cdata {
     opacity: 0.5;
   }
+
+  #toggle {
+
+    .up {
+      border-bottom: 18px solid #111;
+    }
+
+    .down {
+      border-top: 18px solid #111;
+    }
+  }
 }

@@ -111,4 +111,15 @@ Style with support for rainbow parens
   .tex .hljs-formula {
     background: #eee8d5;
   }
+  
+  #toggle {
+
+    .up {
+      border-bottom: 18px solid #111;
+    }
+
+    .down {
+      border-top: 18px solid #111;
+    }
+  }  
 }

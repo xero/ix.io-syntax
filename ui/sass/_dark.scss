@@ -107,4 +107,15 @@ Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Or
   .xml .hljs-cdata {
     opacity: 0.5;
   }
+
+  #toggle {
+
+    .up {
+      border-bottom: 18px solid #111;
+    }
+
+    .down {
+      border-top: 18px solid #111;
+    }
+  }
 }

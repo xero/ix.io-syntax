@@ -1,8 +1,8 @@
 {
   "name": "ix.io",
   "author": "xero",
-  "version": "1.2.2",
-  "description": "ix.io & sprunge.us - syntax highlighter",
+  "version": "1.2.4",
+  "description": "ix.io & sprunge.us & clbin.com - syntax highlighter",
   "repository": "git@github.com/ix.io-syntax.git",
   "dependencies": {
     "grunt": "~0.4.2",

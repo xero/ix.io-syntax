@@ -1,10 +1,11 @@
 #ix.io syntax highlighter
 
-http://ix.io & http://sprunge.us & http://clbin.com & http://p.defau.lt - syntax highlighter chrome extension. select from 49 themes and save your settings for each individual site.
+http://ix.io & http://sprunge.us & http://clbin.com & http://p.defau.lt & http://pub.iotek.org - syntax highlighter chrome extension. select from 49 themes and save your settings for each individual site.
 
 - http://ix.io/fHi
 - http://sprunge.us/AZHT
 - http://clbin.com/zX6A6
+- http://pub.iotek.org/p/wL3cc5h
 - http://p.defau.lt/?mLOHE89DMhJ61TjvE7D0fg
 
 feel free to fork it on github!

@@ -2,8 +2,8 @@
     "manifest_version": 2,
     "name": "ix.io-syntax",
     "short_name": "syntax highlighter for command line paste sites",
-    "description": "ix.io & sprunge.us & clbin.com & p.defau.lt - syntax highlighter",
-    "version": "1.2.5",
+    "description": "ix.io & sprunge.us & clbin.com & p.defau.lt & pub.iotek.org - syntax highlighter",
+    "version": "1.2.6",
     "icons": { 
         "16": "icon16.png",
         "48": "icon48.png",
@@ -24,7 +24,14 @@
                 "*://ix.io/*" ,
                 "*://sprunge.us/*",
                 "*://clbin.com/*",
-                "*://p.defau.lt/*"
+                "*://p.defau.lt/*",
+                "*://pub.iotek.org/p/*"
+            ],
+            "exclude_globs": [
+                "*.png",
+                "*.jpg",
+                "*.jpeg",
+                "*.gif"
             ],
             "run_at": "document_start"
         }
